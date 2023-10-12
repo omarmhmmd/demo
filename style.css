@@ -9,16 +9,19 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: red; */
+  background-color: #E9DFD8;
 }
 
 .navigation {
   display: flex;
   flex-direction: row;
   width: 50%;
-  background-color: green;
+  /* background-color: green; */
   justify-content: space-between;
   padding: 16px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* Media query for mobile screens (max-width: 767px) */
